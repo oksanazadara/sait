@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format("truetype");
+}
+
+/* General styles */
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+/* Header styles */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 0.8em 3.94em;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.logo {
+
+}
+
+.menu-list {
+   display: flex;
+   align-items: center;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+}
+
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin-left: 1.3em;
+    border: none;
+    font: 1em sans-serif;
+}
+
+.white-button {
+    background-color: white;
+    border: none;
+    margin-left: 0;
+    width:16.5em ;
+}
+
+/* First screen style */
+
+.first-screen {
+    background-image: url('./images/main_picture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container {
+    width: 50%;
+    margin-left: 10%;
+}
+
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 1;
+    color: white;
+}
+
+.main-description {
+    margin: 1em 0;
+    font-size: 1.25em;
+}
+
+/* Three block section */
+
+.background-vector {
+    background-image: url(/images/vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.description-screen {
+    padding: 5vw;
+}
+
+.description-title {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title-header {
+    font-weight: 400;
+    font-size: 3.75em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.title-sub-header {
+    font-weight: 400;
+    font-size: 1.7em;
+    line-height: 2; 
+}
+
+.title-text {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #73A6B1;
+    margin: 0.5em 0;
+}
+
+.description-block {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F1FDFF;
+    padding: 4vh 4vw;
+    margin-top: 5vh;
+}
+
+.desc-header {
+    font-weight: 400;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.desc-sub-header {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #73A6B1;
+    margin: 0.5em 0;
+}
+
+.support-screen {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    margin-bottom: 4.5em;
+}
+
+.counter p {
+    font-size: 3em;
+}
+
+.vertical-line {
+    border-left: 2px solid #9AD2DE; 
+    height: 2.7em;
+    margin: 5px; 
+}
+
+.contacts-screen {
+    background-color: #F9FADF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    align-self: center;
+    padding-top: 20px;
+    
+}
+
+.contacts {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-left: 3em;
+    padding-top:1.5em;
+}
+
+
+.contacts img {
+    margin: 0.6em 0.3em;
+}
+
+.telephone {
+    margin-top: 1em;
+}
+
+.telephone a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.telephone a:link {
+    color: black;
+}
+
+.send-message {
+    width: 75%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 3em;
+    margin-left: 3em;
+    padding-top:1em;
+    background-color: white;
+}
+
+.send-message p 
+
+.send-message img {
+    width: 22em;
+    height: 16em;
+
+}
+
+form {
+    width: 45%;
+    padding: 1em;
+}
+
+.send-message input {
+    width: 95%;
+    height: 4em;
+    margin: 0.7em 1em;
+    border: none;
+    border-radius: 50px;
+    padding-left: 10px;
+    background-color: #F9FADF;
+}
+
+.send-message button {
+    width: 95%;
+     margin: 0.7em 1em;
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: grey;
+    }
+
+    .description-block {
+        flex-direction: column;
+    }
+
+
+} 
