@@ -156,6 +156,7 @@ body {
     margin: 0.5em 0;
 }
 
+/* Section support-screen style */
 .support-screen {
     height: 80vh;
     display: flex;
@@ -178,6 +179,7 @@ body {
     margin: 5px; 
 }
 
+/* Section contacts-screen style */
 .contacts-screen {
     background-color: #F9FADF;
     display: flex;
@@ -254,19 +256,7 @@ form {
 
 .send-message button {
     width: 95%;
-     margin: 0.7em 1em;
-
-    
+     margin: 0.7em 1em;    
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        background-color: grey;
-    }
 
-    .description-block {
-        flex-direction: column;
-    }
-
-
-} 
