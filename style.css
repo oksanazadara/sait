@@ -114,10 +114,10 @@ body {
 }
 
 .title-header {
-    font-weight: 400;
-    font-size: 3.75em;
+    font-weight: 800;
+    font-size: 4.06em;
     line-height: 1;
-    text-transform: uppercase;
+    color: white;
 }
 
 .title-sub-header {
